@@ -18,6 +18,7 @@ $("document")
       views_seq: [
             intro,
             instructions,
+            legal_info,
             training_trials,
             instructions2,
             main_trials,
@@ -26,14 +27,14 @@ $("document")
         ],
       // Here, you can specify all information for the deployment
       deploy: {
-        experimentID: "4",
-          serverAppURL: "https://mcmpact.ikw.uni-osnabrueck.de/magpie/api/submit_experiment/",
+        experimentID: "82",
+          serverAppURL: "https://mcmpact.ikw.uni-osnabrueck.de/babe/api/submit_experiment/",
         // Possible deployment methods are:
         // "debug" and "directLink"
         // As well as "MTurk", "MTurkSandbox" and "Prolific"
-        deployMethod: "debug",
-        contact_email: "mchfranke@gmail.com",
-          prolificURL: "https://app.prolific.co/submissions/complete?cc=7F134DEF"
+        deployMethod: "Prolific",
+        contact_email: "exprag@gmail.com",
+          prolificURL: "https://app.prolific.co/submissions/complete?cc=2797FC26"
       },
       // Here, you can specify how the progress bar should look like
       progress_bar: {
