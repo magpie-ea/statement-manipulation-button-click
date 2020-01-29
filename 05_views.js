@@ -28,16 +28,10 @@ const intro = magpieViews.view_generator("intro", {
           <br />
           <br />
           Legal information:
-          By answering the following questions, you are participating in a study
-          being performed by scientists from the University of Osnabrueck.
+          Before starting the experiment, please read the legal information on the next page carefully.
           <br />
           <br />
           You must be at least 18 years old to participate.
-          <br />
-          <br />
-          Your participation in this research is voluntary.
-          You may decline to answer any or all of the following questions.
-          You may decline further participation, at any time, without adverse consequences.
           <br />
           <br />
           Your anonymity is assured; the researchers who have requested your
@@ -62,7 +56,7 @@ const legal_info = magpieViews.view_generator("intro", {
           <b>What is this document?</b>  This document explains what kind of study we’re doing, what your rights are, and what will be done with your data. You should print this page for your records.
           <br />
           <br />
-          <b>Nature of the study.</b> You are invited to participate in a study which involves looking sets of at (fictitious) exam results. You will either be asked to describe these results, or to interpret other people’s descriptions of them. Once you finish, we may have also some questions about your experience (e.g., age, gender, language background). Your session should last for up to 20 minutes. You will be given full instructions shortly.
+          <b>Nature of the study.</b> You are invited to participate in a study which involves looking at sets of (fictitious) exam results. You will either be asked to describe these results, or to interpret other people’s descriptions of them. Once you finish, we may have also some questions about your experience (e.g., age, gender, language background). Your session should last for up to 20 minutes. You will be given full instructions shortly.
           <br />
           <br />
           <b>Compensation.</b> You will be paid £2.50 for your participation in this study.
